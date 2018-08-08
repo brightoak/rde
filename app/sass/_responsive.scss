@@ -1,0 +1,247 @@
+@media screen and (max-width:1500px) {
+  .sitesections-cards{
+    h3{
+      font-size: 2.2rem;
+    }
+    .card-content{
+      padding: 1.5rem;
+    }
+  }
+}
+@media screen and (max-width:1000px) {
+  .home{
+    .about-us{
+      padding-top: 23rem;
+    }  
+  }
+  .about-us{
+    padding-bottom: 3rem;
+  }
+  .office-contacts{
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
+@media screen and (max-width:768px) {
+  .signup-form{
+    .tablet-column-direction{
+      .txt{
+        margin-bottom: 11px;
+        width: 100%;
+        max-width: 100%;
+      }
+      .button{
+        line-height: 3.2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+  .leasesale-section{
+    h3{
+      font-size: 3.8rem;
+    }
+    & > .column{
+      margin: 0 20px 40px !important;
+      min-height: 350px;
+    }
+  }
+  .lease-sale{
+    .hero{
+      padding-bottom: 14rem;
+      & + .section{
+        padding-top: 0;
+      }
+    }
+  }
+  .property-details{
+    .holder{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .office-contacts{
+    &:last-child{
+      margin-bottom: 2rem;
+    }
+  }
+  .hero{
+    & + .section{
+      padding-top: 0;
+    }
+  }
+}
+@media screen and (max-width:600px) {
+  #header{
+    &.headroom--unpinned {
+      transform: translateY(0%);
+    }	
+  }
+  .recentnews{
+    padding-bottom: 1rem;
+  }
+  #footer{
+    padding-top: 6rem;
+    padding-bottom: 2.5rem;
+  }
+  .btmbar{
+    text-align: center;
+  }
+  .property-images-slider-container{
+    display: none;
+  }
+  .list-filters{
+    margin-bottom: 2rem;
+    li{
+      margin: 0 .4rem 1.3rem .8rem;
+    }
+  }
+}
+@media screen and (max-width:500px) {
+  .sitesections-cards{
+    h3{
+      font-size: 2rem;
+      line-height: normal;
+    }
+  }
+  .column{
+    .column{
+      margin-bottom: 0;
+    }
+  }
+  .home{
+    .hero{
+      padding-top: 14rem;
+      .text{
+        padding-bottom: 3rem;
+        h1{
+          font-size: 5rem;
+          text-align: center;
+        }
+        h2{
+          font-size: 2.4rem;
+          text-align: center;
+        }
+      }
+      .buttons{
+        .button{
+          margin-top: 1rem;
+          &:first-child{
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+  #header{
+    padding: 2rem 2rem 0;
+    .logo{
+      width: 135px;
+      height: 48px;
+    }
+  }
+  .nav-toggle{
+    margin-top: 1.1rem;
+  }
+  #sidenav{
+    .list-social{
+      padding-bottom: 0;
+    }
+    .signup-form{
+      padding-top:3rem;
+      label{
+        margin-bottom: 0;
+      }
+    }
+    .close-cross{
+      top: 3.5rem;
+      right: 3rem;
+    }
+  }
+  .hero{
+    h1{
+      font-size: 5rem;
+    }
+  }
+  .list-filters{
+    dt{
+      display: block;
+      margin: 0 0 20px;
+    }
+  }
+  .property-details-section{
+    padding-top: 12rem;
+  }
+  .featured-property{
+    .cover-bg{
+      min-height: 25rem;
+    }
+    .text-column{
+      height: auto;
+      margin-top: 4rem;
+    }
+    .sidemargins{
+      flex-direction: column-reverse;
+    }
+  }
+  .featured-properties{
+    .hero{
+      padding-top: 13rem;
+    }
+  }
+  .post-content{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    .images,
+    .figure{
+      margin-left: -1rem;
+      margin-right: -1rem;
+    }
+  }
+  .send-message-form{
+    padding: 2rem 1rem;
+    margin-bottom: 5rem;
+    h3{
+      font-size: 3rem;
+    }
+  }
+  .office-contacts{
+    flex-direction: column;
+    .map{
+      height: 250px;
+      width: 100%;
+      background-position: center;
+      a{
+        display: block;
+        height: 100%;
+      }
+    }
+    .text{
+      width: 100%;
+      padding: 2rem;
+    }
+  }
+  .whatwedo{
+    margin-bottom:2rem;
+  }
+  .contactus-section{
+    .is-flex .column.align-right{
+      margin-left: 0;
+    }
+    .has-2items .has-2items.column{
+      &:first-child{
+        padding-left: 3rem;
+        padding-right: 0;
+      }
+    }
+  }
+  .about-us{
+    padding-top: 18rem;
+  }
+  .pagination{
+    padding: 3rem 0;
+  }
+}

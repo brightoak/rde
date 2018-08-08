@@ -1,0 +1,192 @@
+<!-- partial:partials/_head.html -->
+<!-- partial -->
+
+<body class="property-details-page">
+	<div id="content-container" style="background-image: url(images/propertydetails-hero-bg.jpg);">
+		<div class="wrapper">
+			<section class="property-details-section">
+				<div class="heading">
+					<h1>Page Plaza</h1>
+					<address>Sanderson Ave. &amp; Stetson Ave. Hemet, California 92545</address>
+				</div>
+				<div class="is-flex desktop-column-direction  property-details-container">
+					<div class="itemsize-8 property-images-slider-container">
+						<div id="property-images-slider">
+							<div class="cover-bg property-image" style="background-image: url(images/img14.jpg);"></div>
+							<div class="cover-bg property-image" style="background-image: url(images/img15.jpg);"></div>
+							<div class="cover-bg property-image" style="background-image: url(images/img16.jpg);"></div>
+							<div class="cover-bg property-image" style="background-image: url(images/img17.jpg);"></div>
+						</div>
+						<ul id="property-images-thumbnails" class="list-inline text-center">
+							<li><img src="images/img-thumb-slider1.jpg" alt="" width="140" height="80"></li>
+							<li><img src="images/img-thumb-slider2.jpg" alt="" width="140" height="80"></li>
+							<li><img src="images/img-thumb-slider3.jpg" alt="" width="140" height="80"></li>
+							<li><img src="images/img-thumb-slider4.jpg" alt="" width="140" height="80"></li>
+						</ul>
+					</div>
+					<div class="itemsize-4 property-details">
+						<div id="property-location"></div>
+						<div class="holder">
+							<ul class="text-center is-flex has-2items">
+								<li class="column">
+									<strong>82,000</strong>
+									<span>sq. ft.</span>
+								</li>
+								<li class="column">
+									<strong>8</strong>
+									<span>Retail Units</span>
+								</li>
+								<li class="column">
+									<strong>83k</strong>
+									<span>appx population</span>
+								</li>
+								<li class="column">
+									<strong>$45k</strong>
+									<span>Appx income</span>
+								</li>
+							</ul>
+							<div class="is-flex has-1items flexmargins1">
+								<a href="" class="column button"><i class="fal fa-file-pdf"></i> Download Flyer</a>
+								<a href="" class="column button"><i class="fal fa-file-pdf"></i> Download Site Plan</a>
+							</div>
+						</div>
+						<script>
+							function initMap() {
+								var location = {lat: 33.728928, lng: -117.007280};
+								var map = new google.maps.Map(
+										document.getElementById('property-location'), {zoom: 16, center: location});
+								var marker = new google.maps.Marker({position: location, icon: 'images/ico-marker-map.png', map: map});
+							}
+						</script>								
+						<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD57g--w9LrPx78pSRnOsVl9xYJ6svsH_M&amp;callback=initMap"></script>
+					</div>
+				</div>
+				<div class="is-flex has-2items desktop-column-direction flexmargins2 content-section">
+					<div class="column itemsize-7">
+						<h3>About the Property</h3>
+						<p>Nulla in congue nibh. Aliquam finibus leo at lectus molestie, eu vehicula turpis rhoncus. Curabitur malesuada tortor sed quam tincidunt tempor. Duis iaculis odio quis lectus maximus, eget dapibus lacus iaculis. Mauris luctus lorem ut arcu viverra.</p>
+						<p>Commodo risus ultrices. Pellentesque et purus ut odio ornare egestas sit amet ut risus. Morbi condimentum libero sem, ac cursus magna rutrum a. Sed in rhoncus turpis, eget sollicitudin purus. Cras suscipit consequat suscipit. Vivamus consectetur sollicitudin diam, eu blandit leo ornare sed. Suspendisse ultrices, diam eget porta placerat, ante purus scelerisque mi, eget laoreet felis ipsum eget sapien.</p>
+					</div>
+					<div class="column itemsize-5">
+						<h3>Contact</h3>
+						<div class="holder has-2items mobile-column-direction is-flex is-vcentered flexmargins1-5">
+							<div class="column is-fullwidth rounded itemsize-5">
+								<img src="images/img12.png" alt="">
+							</div>
+							<div class="column itemsize-7 contact-data">
+								<p><strong>Steven Smith</strong></p>
+								<p>Rich Development Enterprises LLC</p>
+								<p>Telephone: (486) 555-1234</p>
+								<p><a href="">steven@richdevelopment.com</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<section class="section major-retailers">
+			<div class="wrapper">
+				<div class="section-heading text-center text-uppercase">
+					<h3>Major Retailers</h3>
+				</div>
+				<ul class="is-flex flexmargins4 sidemargins is-vcentered has-5items tablet-3items mobile-2items">
+					<li class="column is-fullwidth"><img src="images/logo-bedbath.png" alt="" width="196" height="61"></li>
+					<li class="column is-fullwidth"><img src="images/logo-dollartree.png" alt="" width="195" height="95"></li>
+					<li class="column is-fullwidth"><img src="images/logo-famousfootwear.png" alt="" width="225" height="65"></li>
+					<li class="column is-fullwidth"><img src="images/logo-rue21.png" alt="" width="172" height="47"></li>
+					<li class="column is-fullwidth"><img src="images/logo-verizon.png" alt="" width="245" height="90"></li>
+				</ul>
+			</div>
+		</section>
+		<section class="section">
+			<div class="wrapper">
+				<div class="section-heading text-center text-uppercase">
+					<h3>Other Properties in the area</h3>
+				</div>
+				<div class="is-flex stretch-items has-4items desktop-2items tablet-1items opportunities-cards">
+					<div class="column">
+						<div class="card">
+							<a href="" class="card-image">
+								<figure class="image is-fullwidth">
+									<img src="images/img1.jpg" alt="Lawndale" width="383" height="255">
+								</figure>
+								<span class="roll-text text-uppercase">View <br> Property</span>
+							</a>
+							<div class="card-content text-center">
+								<h4 class="text-uppercase">Sales Properties</h4>
+								<h5>Lawndale</h5>
+								<address>
+									<p>12505-12513 Hawthorne Blvd <br>Lawndale, California 90250</p>
+								</address>
+								<strong class="sizes">111,750 <span>sq. ft.</span></strong>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card">
+							<a href="" class="card-image">
+								<figure class="image is-fullwidth">
+									<img src="images/img1.jpg" alt="Lawndale" width="383" height="255">
+								</figure>
+								<span class="roll-text text-uppercase">View <br> Property</span>
+							</a>
+							<div class="card-content text-center">
+								<h4 class="text-uppercase">Sales Properties</h4>
+								<h5>Lawndale</h5>
+								<address>
+									<p>12505-12513 Hawthorne Blvd <br>Lawndale, California 90250</p>
+								</address>
+								<strong class="sizes">111,750 <span>sq. ft.</span></strong>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card">
+							<a href="" class="card-image">
+								<figure class="image is-fullwidth">
+									<img src="images/img1.jpg" alt="Lawndale" width="383" height="255">
+								</figure>
+								<span class="roll-text text-uppercase">View <br> Property</span>
+							</a>
+							<div class="card-content text-center">
+								<h4 class="text-uppercase">Sales Properties</h4>
+								<h5>Lawndale</h5>
+								<address>
+									<p>12505-12513 Hawthorne Blvd <br>Lawndale, California 90250</p>
+								</address>
+								<strong class="sizes">111,750 <span>sq. ft.</span></strong>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card">
+							<a href="" class="card-image">
+								<figure class="image is-fullwidth">
+									<img src="images/img1.jpg" alt="Lawndale" width="383" height="255">
+								</figure>
+								<span class="roll-text text-uppercase">View <br> Property</span>
+							</a>
+							<div class="card-content text-center">
+								<h4 class="text-uppercase">Sales Properties</h4>
+								<h5>Lawndale</h5>
+								<address>
+									<p>12505-12513 Hawthorne Blvd <br>Lawndale, California 90250</p>
+								</address>
+								<strong class="sizes">111,750 <span>sq. ft.</span></strong>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- partial:partials/_header.html -->
+		<!-- partial -->
+		<!-- partial:partials/_signup.html -->
+		<!-- partial -->
+		<!-- partial:partials/_footer.html -->
+		<!-- partial -->
+	</div>
+	<!-- partial:partials/_sidenav.html -->
+	<!-- partial -->
+</body>
+</html>
